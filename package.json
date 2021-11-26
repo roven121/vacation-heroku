@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "start": "node server/server.js",
+        "heroku-postbuild": "cd client/project-vacation-client && npm install && run build"
+    },
+    "engines": {
+        "node": "16.13.0"
+    }
+}
