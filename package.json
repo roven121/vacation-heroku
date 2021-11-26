@@ -1,6 +1,6 @@
 {
     "scripts": {
-        "start": "node server/server.js",
+        "start": "cd server && npm i && node server.js",
         "heroku-postbuild": "cd client/project-vacation-client && npm install && run build"
     },
     "engines": {
